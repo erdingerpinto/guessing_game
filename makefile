@@ -1,6 +1,6 @@
 all :
-	echo "***Erdinger's Guessing Game***" > README.md
+	echo "***Erdinger's Guessing Game***\n" > README.md
 	date >> README.md
-	echo "Number of lines of code : " >> README.md
+	echo "\nNumber of lines of code : " >> README.md
 	cat guessinggame.sh | wc -l >> README.md
 
